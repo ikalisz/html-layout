@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.firstBox {
+    margin: 20px;
+    border: solid;
+    border-color: #000;
+    height: 15vh;
+}
+
+.dottedBox {
+    height: 25vh;
+    border: dotted;
+    border-color: #000;
+    margin: 0 20px;
+}
+
+.letterOutline {
+    height: 45vh;
+    width: 50vw;
+    border: solid;
+    border-color: #3b3b3b4f;
+    margin: 20px auto;
+    align-content: center;
+    position: relative;
+}
+
+.text {
+    color: blue;
+    margin: auto;
+    letter-spacing: 10px;
+    text-align: center;
+    display: inline-block;
+    top: 35%;
+    position: absolute;
+    left: 25%;
+    height: 30%;
+    font-size: 36px;
+    max-width: 50%;
+}
+.purpleSquare {
+    height: 75%;
+    width: 30px;
+    background-color: rgb(116, 32, 185);
+    margin: 25px 10px 0 10px;
+    display: inline-block;
+}
+.greenSquare {
+    background-color: green;
+    height: 85%;
+    width: 300px;
+    display: inline-block;
+}
+.blueSquare {
+    shape-margin: circle;
+    
+}
