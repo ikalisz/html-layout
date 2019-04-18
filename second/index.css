@@ -4,21 +4,21 @@ body{
 }
 
 .firstBox {
-    margin: 20px;
+    margin: 25px;
     border: solid;
     border-color: #000;
     height: 15vh;
 }
 
 .dottedBox {
-    height: 25vh;
+    height: 30vh;
     border: dotted;
     border-color: #000;
     margin: 0 20px;
 }
 
 .letterOutline {
-    height: 45vh;
+    height: 40vh;
     width: 50vw;
     border: solid;
     border-color: #3b3b3b4f;
@@ -32,13 +32,12 @@ body{
     margin: auto;
     letter-spacing: 10px;
     text-align: center;
-    display: inline-block;
     top: 35%;
     position: absolute;
-    left: 25%;
+    left: 15%;
     height: 30%;
     font-size: 36px;
-    max-width: 50%;
+    max-width: 70%;
 }
 .purpleSquare {
     height: 75%;
@@ -53,7 +52,19 @@ body{
     width: 300px;
     display: inline-block;
 }
-.blueSquare {
-    shape-margin: circle;
+.blueCircle {
+    height: 120px;
+    width: 120px;
+    background-color: paleturquoise;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 0 0 30px;
+}
+.paleSquare {
+    height: 60%;
+    width: 80%;
+    background-color: palegoldenrod;
+    margin: 8.5% auto;
+    box-shadow: 5px 10px 5px #888
     
 }
